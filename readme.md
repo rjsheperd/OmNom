@@ -21,10 +21,10 @@ node index.js ./data/my-file.csv 'http://api.service.com/id/%id%' id,title,descr
 ```
 
 Let's go through this step by step.
-+`node index.js` just specifies to node what file you want to run.
-+`./data/my-file/csv' is the path to the CSV file you're going to run.
-+`id,title,description,new_columns` are the titles of the new columns.
-+`200` is the maximum lines per output file.
++ `node index.js` just specifies to node what file you want to run.
++ `./data/my-file/csv' is the path to the CSV file you're going to run.
++ `id,title,description,new_columns` are the titles of the new columns.
++ `200` is the maximum lines per output file.
 
 After running this you should get an output with the names of your new files, complete with the data you requested!
 
