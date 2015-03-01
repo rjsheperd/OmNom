@@ -1,11 +1,11 @@
-= Om Nom =
+# Om Nom
 Simple tool to programmatically make API calls using a CSV file, which can then be turned into a TSV file. 
 
-== Setup ==
+## Setup
 1. clone this repo
 2. `npm install`
 
-== Usage ==
+## Usage
 1. First you must have a CSV file that has some data that will be inserted into an API call. 
 
 2. Next, get the URL you want to repeatedly hit for new information. For example, I used the Viddler API: `http://api.viddler.com/api/v2/viddler.videos.getDetails.json?video_id=881e2fbd`. Note: this tool currently only works for JSON data.
@@ -28,5 +28,5 @@ Let's go through this step by step.
 
 After running this you should get an output with the names of your new files, complete with the data you requested!
 
-= Liscense =
+# Liscense
 MIT
